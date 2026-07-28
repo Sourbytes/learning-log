@@ -155,6 +155,10 @@ print("Here is score set: ", marks)
 
 
 
-import statistics
-average = statistics.mean([100,90,80,60,56,89,90])
-print(f"average is {average}")
+# import statistics
+# average = statistics.mean([100,90,80,60,56,89,90])
+# print(f"average is {average}")
+
+# import sys
+
+# print ("hello!", sys.argv[1])
