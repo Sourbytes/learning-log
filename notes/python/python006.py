@@ -200,3 +200,40 @@ for k in range(1,n+1):
 print(fac)
 ________________________________________________________________________
 """
+
+# x = int(input("number: "))
+# y = (10/100)*x
+# print(y)
+
+
+def fail_safe(temperature, neutrons_produced_per_second, threshold):
+    """Assess and return status code for the reactor.
+
+    Parameters:
+        temperature (int or float): The value of the temperature in kelvin.
+        neutrons_produced_per_second (int or float): The neutron flux.
+        threshold (int or float): The threshold for the category.
+
+    Returns:
+        str: One of ('LOW', 'NORMAL', 'DANGER').
+
+    Note:
+        1. 'LOW' -> `temperature * neutrons per second` < 90% of `threshold`
+        2. 'NORMAL' -> `temperature * neutrons per second` +/- 10% of `threshold`
+        3. 'DANGER' -> `temperature * neutrons per second` is not in the above-stated ranges
+    """
+    k = (temperature * neutrons_produced_per_second)
+    if k < ( 0.90 * threshold):
+        print ("LOW")
+    if (threshold + ( 0.10 * threshold)) <= k <= (threshold - ( 0.10 * threshold)):
+        print ("normal")
+    else:
+        print ("danger")
+
+
+fail_safe(10, 901, 10000)
+
+
+
+
+    
