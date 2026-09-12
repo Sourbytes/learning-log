@@ -35,3 +35,34 @@
 //     printf("%d\n", i);
 //     }
 // }
+
+// #include <stdio.h>
+// int main() {
+// 	int guess;
+//     while(scanf("%d", &guess) != EOF) {
+// 		if (guess == 42) {
+//         	printf("Nice Work!\n");
+//         	break;
+//         }
+//     	else if ( guess < 42) 
+//           	printf("Too low - guess again\n");
+//     	else 
+//       		print("Too high - guess again\n");
+//     }
+// }
+
+// #include <stdio.h>
+// int main() {
+//     int mymult(); 
+//     int retval;
+
+//     retval = mymult(6,7);
+//     printf("Answer: %d\n",retval);
+// }
+
+// int mymult(a, b)
+//     int a,b;
+// {
+//     int c = a * b;
+//     return c;
+// }
