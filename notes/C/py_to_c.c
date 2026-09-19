@@ -10,6 +10,14 @@
 //     printf("Name %s\n","Sarah");
 // }
 
+
+// #include <stdio.h>
+// int main() {
+//     printf ("hello world\n");
+//     printf ("Answer: %d\n", 17);
+//     printf ("Name %s\n","Soura");
+// }
+
 // #include <stdio.h>
 // int main() {
 //     int usf, euf;
@@ -18,6 +26,16 @@
 //     euf = usf - 1;
 //     printf("EU Floor %d\n", euf);
 // }
+
+#include <stdio.h>
+int main() {
+    int usf, euf;
+    printf("Enter US Floor: ");
+    scanf("%d", &usf);
+    euf = usf - 1;
+    printf("EU Floor %d\n", euf);
+}
+
 
 // #include <stdio.h>
 // int main() {
