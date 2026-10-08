@@ -1,4 +1,4 @@
-// #include <stdio.h>
+#include <stdio.h>
 // main() {
 //   printf("Hello world\n");
 // }
@@ -72,7 +72,7 @@
 // #include <stdio.h>
 // int main() {
 //     int mymult(); 
-//     int retval;
+// int retval;
 
 //     retval = mymult(6,7);
 //     printf("Answer: %d\n",retval);
@@ -84,3 +84,7 @@
 //     int c = a * b;
 //     return c;
 // }
+
+int main() {
+    printf("hello World\n");
+}
