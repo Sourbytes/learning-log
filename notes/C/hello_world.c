@@ -10,9 +10,16 @@
 // }
 
 
+// #include <stdio.h>
+// char main() {
+//     printf("hello, world\n");
+//     printf("I'm, soura\n");
+//     printf("welcome to Sourbytes\n");
+// }
+
 #include <stdio.h>
-char main() {
-    printf("hello, world\n");
-    printf("I'm, soura\n");
-    printf("welcome to Sourbytes\n");
+int main() 
+{
+    printf("hellow aster \n");
+    printf("hellow world\n");
 }

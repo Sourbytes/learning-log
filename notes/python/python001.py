@@ -1,4 +1,4 @@
-print("Hello World!")
+# print("Hello World!")
 # print("Welcome to Python programming.")
 # print("Hello World!", "Welcome to Python programming.")
 # print(230)
@@ -142,11 +142,14 @@ print("Hello World!")
 # hello(name)
 
 
-def main():
-    x = int(input("what's x?"))
-    print ("x squared is", square(x))
+# def main():
+#     x = int(input("what's x?"))
+#     print ("x squared is", square(x))
 
-def square(n):
-    return (n*n)
+# def square(n):
+#     return (n*n)
 
-main()
+# main()
+
+
+print ("hellow aster")
